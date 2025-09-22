@@ -339,7 +339,7 @@ export function ChatInterface() {
             </div>
             <div className="flex items-center justify-between">
               <span className="text-sm">SMS Gateway</span>
-              <Badge variant="secondary">Active</Badge>
+              <Badge variant="outline">Pending</Badge>
             </div>
             <div className="mt-3 pt-2 border-t text-xs text-muted-foreground">
               Account: {user?.role === 'admin' ? 'Administrator' : 'Student'} ({user?.email})
